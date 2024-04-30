@@ -420,4 +420,4 @@ class CFGGuide(Guide):
 
     def copy(self) -> "CFGGuide":
         """Create a copy of the FSM."""
-        return CFGGuide(self.cfg_string, self.tokenizer)
+        return self
